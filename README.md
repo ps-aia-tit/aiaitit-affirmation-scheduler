@@ -44,7 +44,9 @@ src/
 ```
 
 ---
-```table
+## 🔁 REST Endpoints
+
+```text
 POST    /affirmation/schedule
         → Schedule a new affirmation with message, tag, and date
 
@@ -59,6 +61,12 @@ GET     /affirmation/date/{date}
 ```
 
 ---
+
+### 3. 🧪 Sample Payload — Use fenced code block
+
+```markdown
+## 🧪 Sample Payload
+
 ```json
 {
   "message": "I act without expectation and refine without attachment.",
@@ -66,7 +74,34 @@ GET     /affirmation/date/{date}
   "scheduledDate": "2025-11-07"
 }
 ```
-
 ---
 
+### 4. 🚀 How to Run — Add header and code block
 
+```markdown
+## 🚀 How to Run
+
+```bash
+mvn spring-boot:run
+
+```
+---
+```markdown
+curl -X POST http://localhost:8080/affirmation/schedule \
+-H "Content-Type: application/json" \
+-d '{"message":"I magnetize clarity through intentional action.","tag":"career","scheduledDate":"2025-11-07"}'
+```
+---
+
+### 5. 🧩 Strategic Value — Add recruiter-facing clarity
+
+```markdown
+## 🧩 Strategic Value
+
+- ✅ SaaS-ready: Modular, RESTful, and cloud-deployable
+- 🔐 Secure messaging: Ready for integration with auth and email modules
+- 🧘 Spiritual clarity: Anchors Sankalpa in backend precision
+- 📄 Recruiter-facing: Markdown-stable, endpoint-documented, and badge-rich
+
+```
+---
