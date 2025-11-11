@@ -41,6 +41,7 @@ src/
         ├── repository/
         │   └── AffirmationRepository.java
         └── AffirmationSchedulerApplication.java
+
 ```
 
 ---
@@ -58,6 +59,7 @@ GET     /affirmation/tag/{tag}
 
 GET     /affirmation/date/{date}
         → Retrieve affirmation scheduled for a specific date (format: YYYY-MM-DD)
+
 ```
 
 ---
@@ -73,24 +75,26 @@ GET     /affirmation/date/{date}
   "tag": "clarity",
   "scheduledDate": "2025-11-07"
 }
+
 ```
 ---
 
-### 4. 🚀 How to Run — Add header and code block
-
-```markdown
-## 🚀 How to Run
+### 4. 🚀 How to Run
 
 ```bash
 mvn spring-boot:run
 
 ```
+
 ---
+
 ```markdown
 curl -X POST http://localhost:8080/affirmation/schedule \
 -H "Content-Type: application/json" \
 -d '{"message":"I magnetize clarity through intentional action.","tag":"career","scheduledDate":"2025-11-07"}'
+
 ```
+
 ---
 
 ### 5. 🧩 Strategic Value — Add recruiter-facing clarity
@@ -104,4 +108,5 @@ curl -X POST http://localhost:8080/affirmation/schedule \
 - 📄 Recruiter-facing: Markdown-stable, endpoint-documented, and badge-rich
 
 ```
+
 ---
