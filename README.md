@@ -1,5 +1,3 @@
-# aiaitit-affirmation-scheduler
-
 # 🌅 AiaTit Affirmation Scheduler
 
 > ** Modular. Spiritual. SaaS-aligned. **  
