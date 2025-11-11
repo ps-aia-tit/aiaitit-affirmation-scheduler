@@ -65,10 +65,9 @@ GET     /affirmation/date/{date}
 
 ---
 
-### 3. 🧪 Sample Payload — Use fenced code block
+### 3. 🧪 Sample Payload
 
 ```markdown
-## 🧪 Sample Payload
 
 ```json
 {
