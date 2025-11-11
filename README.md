@@ -45,6 +45,7 @@ src/
 ```
 
 ---
+
 ## 🔁 REST Endpoints
 
 ```text
@@ -97,9 +98,10 @@ curl -X POST http://localhost:8080/affirmation/schedule \
 
 ---
 
-### 5. 🧩 Strategic Value — Add recruiter-facing clarity
+### 5. 🧩 Strategic Value
 
 ```markdown
+
 ## 🧩 Strategic Value
 
 - ✅ SaaS-ready: Modular, RESTful, and cloud-deployable
