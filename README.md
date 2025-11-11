@@ -2,7 +2,7 @@
 
 # 🌅 AiaTit Affirmation Scheduler
 
-> **Modular. Spiritual. SaaS-aligned.**  
+> ** Modular. Spiritual. SaaS-aligned. **  
 > A microservice to schedule and retrieve daily Sankalpa affirmations — blending backend clarity with karmic resonance.
 
 ![Java](https://img.shields.io/badge/Java-17-blue?logo=java)
@@ -67,7 +67,6 @@ GET     /affirmation/date/{date}
 
 ### 3. 🧪 Sample Payload
 
-```markdown
 
 ```json
 {
@@ -100,8 +99,6 @@ curl -X POST http://localhost:8080/affirmation/schedule \
 ### 5. 🧩 Strategic Value
 
 ```markdown
-
-## 🧩 Strategic Value
 
 - ✅ SaaS-ready: Modular, RESTful, and cloud-deployable
 - 🔐 Secure messaging: Ready for integration with auth and email modules
